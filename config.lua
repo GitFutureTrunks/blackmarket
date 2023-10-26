@@ -2,9 +2,9 @@ Config = {}
 
 Config.useItem = "encryptedtablet"
 Config.paymentType = "crypto" -- cash, bank or crypto
-Config.cryptoAcronym = "QBT"
+Config.cryptoAcronym = "GNE"
 Config.cryptoIcon = "fa-solid fa-bitcoin-sign"
-Config.inventory = "qb-inventory" -- needed for fetching images
+Config.inventory = "lj-inventory" -- needed for fetching images
 
 Config.randomItems = false -- number of items chosen at random for blackmarket, set to false to have all items in stock
 Config.reset = 360 -- mins for blackmarket to restock
