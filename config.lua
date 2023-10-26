@@ -2,7 +2,7 @@ Config = {}
 
 Config.useItem = "encryptedtablet"
 Config.paymentType = "crypto" -- cash, bank or crypto
-Config.cryptoAcronym = "GNE"
+Config.cryptoAcronym = "LME"
 Config.cryptoIcon = "fa-solid fa-bitcoin-sign"
 Config.inventory = "lj-inventory" -- needed for fetching images
 
@@ -80,18 +80,13 @@ Config.tabletAnim = {
 }
 
 Config.items = {
-    {item = "thermite", label = "Thermite", minStock = 5, maxStock = 5, price = 9999, image = "thermite.png"},
-    {item = "laptop", label = "Laptop", minStock = 5, maxStock = 5, price = 5, image = "laptop.png"},
-    {item = "advancedlockpick", label = "Advanced Lockpick", minStock = 5, maxStock = 5, price = 2, image = "advancedlockpick.png"},
-    {item = "electronickit", label = "Electronic Kit", minStock = 5, maxStock = 5, price = 5, image = "electronickit.png"},
-    {item = "drill", label = "Drill", minStock = 5, maxStock = 5, price = 5, image = "drill.png"},
-    {item = "nitrous", label = "Nitrous", minStock = 5, maxStock = 5, price = 5, image = "nitrous.png"},
-    {item = "tunerlaptop", label = "Tunerchip", minStock = 3, maxStock = 5, price = 5, image = "tunerchip.png"},
-    {item = "weed_brick", label = "Weed Brick", minStock = 3, maxStock = 50, price = 10, image = "weed_brick.png"},
-    {item = "coke_brick", label = "Coke Brick", minStock = 3, maxStock = 5, price = 20, image = "coke_brick.png"},
-    {item = "weapon_microsmg", label = "Micro SMG", minStock = 3, maxStock = 5, price = 30, image = "weapon_microsmg.png"},
-    {item = "weapon_sawnoffshotgun", label = "Sawn-off Shotgun", minStock = 3, maxStock = 5, price = 40, image = "weapon_sawnoffshotgun.png"}, 
-    {item = "weapon_heavypistol", label = "Heavy Pistol", minStock = 3, maxStock = 5, price = 25, image = "weapon_heavypistol.png"}, 
+    {item = "cagoule", label = "Empty Bag", minStock = 5, maxStock = 5, price = 1, image = "cagoule.png"},
+    {item = "infousb", label = "Information USB", minStock = 5, maxStock = 10, price = 2, image = "infousb.png"},
+    {item = "stolencard", label = "Stolen Bankcard", minStock = 5, maxStock = 10, price = 4, image = "stolencard.png"},
+    {item = "towingrope", label = "Towing Rope", minStock = 5, maxStock = 5, price = 13, image = "expert_towingrope.png"},
+    {item = "trojan_usb", label = "Trojan USB", minStock = 3, maxStock = 3, price = 14, image = "usb_device.png"},
+    {item = "licenseplate", label = "License Plate", minStock = 3, maxStock = 3, price = 140, image = "licenseplate.png"},
+    {item = "racingtablet", label = "Racing tablet", minStock = 3, maxStock = 3, price = 700, image = "racingtablet.png"},
 }
 
 Config.deliveryLocations = {
